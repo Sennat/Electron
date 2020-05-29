@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alarms</title>
+
+        <!--Javascript CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+
+        <!-- Awesome Font -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./../public/font/awesomefont.css">
+        <link rel="stylesheet" href="./../public/css/bootstrap.css">
+        <link rel="stylesheet" href="./../public/css/style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid border-top">
+            <div class="row text-light bg-dark">
+                <div class="col-sm-12 col-md-10 offset-1 ">
+                    <h5 class="text-uppercase text-dark my-3">List Of Alarms</h5>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 offset-1 my-5">
+                        <h5 class="text-uppercase my-3">List Of Alarms</h5>
+                        <table id="alarms_table" class="table table-hover mt-3">
+                            <thead class="thead-boder">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Label</th>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Time</th>
+                                    <!-- <th scope="col">Remaining</th> -->
+                                    <th scope="col">Edit</th>
+                                    <th scope="col">Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody id="alarms"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-sm-12 col-md-10 offset-1">
+                        <h5 id="error" class="text-danger font-weight-bold text-center"></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>require('../renderer.js');</script>
+        <script src="./../public/js/getalarms.js"></script>
+    </body>
+
+</html>

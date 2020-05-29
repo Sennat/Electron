@@ -1,0 +1,26 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "Alarm App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "ISC",
+  "homepage": "https://meklitfm.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sennat/Electron.git"
+  },
+  "author": {
+    "name": "Natnael Alemayehu",
+    "email": "dinksira@gmail.com"
+  },
+  "dependencies": {
+    "electron": "^8.2.5",
+    "jquery": "^3.5.1",
+    "json": "^9.0.6",
+    "jsonfile": "^6.0.1",
+    "moment": "^2.26.0"
+  }
+}

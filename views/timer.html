@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timer</title>
+
+        <!--Javascript CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+
+        <!-- Awesome Font -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./../public/font/awesomefont.css">
+        <link rel="stylesheet" href="./../public/css/bootstrap.css">
+        <link rel="stylesheet" href="./../public/css/style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid border-top">
+            <div class="row text-light bg-dark">
+                <div class="col-sm-12 col-md-10 offset-1 ">
+                    <h5 class="text-uppercase text-dark my-3">Timer</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-1">
+                    <h5 class="text-uppercase border-bottom my-3">Timer</h5>
+                    <div class="row my-5">
+                        <div class="col-6 m-auto">
+                            <p class="display-2 text-dark" id="min">05 : 00</p>
+                        </div>
+                        <div class="col m-auto">
+                            <button id="start" class="btn btn-dark px-4 mx-4">Start</button>
+                            <button id="reset" class="btn btn-secondary px-4">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./../public/js/timer.js"></script>
+        <script src="./../public/js/jquery.js"></script>
+    </body>
+
+</html>

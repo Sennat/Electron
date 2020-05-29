@@ -1,0 +1,34 @@
+[
+   {
+      "id": 1,
+      "label": "School",
+      "day": "Sunday",
+      "date": "2020-05-24",
+      "time": "01:45",
+      "millsec": 1590302700000
+   },
+   {
+      "id": 2,
+      "label": "Work",
+      "day": "Friday",
+      "date": "2020-05-29",
+      "time": "14:00",
+      "millsec": 1590778800000
+   },
+   {
+      "id": 3,
+      "label": "Church",
+      "day": "Saturday",
+      "date": "2020-05-30",
+      "time": "14:45",
+      "millsec": 1590867900000
+   },
+   {
+      "id": 4,
+      "label": "Interview",
+      "day": "Wednsday",
+      "date": "2020-05-17",
+      "time": "04:10",
+      "millsec": 1590570600000
+   }
+]

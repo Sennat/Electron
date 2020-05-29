@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Watch</title>
+
+        <!--Javascript CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+
+        <!-- Awesome Font -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./../public/font/awesomefont.css">
+        <link rel="stylesheet" href="./../public/css/bootstrap.css">
+        <link rel="stylesheet" href="./../public/css/style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid border-top">
+            <div class="row text-light bg-dark">
+                <div class="col-sm-12 col-md-10 offset-1 justify-content-center">
+                    <h1 class="text-uppercase text-dark">Stop Watch</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h5 class="text-uppercase border-bottom my-5">Stop Watch</h5>
+            <div class="row d-flex align-items-center my-5">
+                <div class="col-sm-12 col-md-10 offset-1 d-flex justify-content-center">
+                    <h1 id="stop_clock" class="display-1">
+                        <span id="hour">00</span> :
+                        <span id="min">00</span> :
+                        <span id="sec">00</span> :
+                        <span id="milisec">00</span>
+                    </h1>
+                </div>
+                <div class="col-sm-12 col-md-10 offset-1 my-5">
+                    <div class="d-flex align-items-center justify-content-center flex-row">
+                        <button id="start" class="btn btn-success px-4 mx-3">Start</button>
+                        <button id="stop" class="btn btn-danger px-4 mx-3">Stop</button>
+                        <button id="lap" class="btn btn-dark px-4 mx-3">Lap</button>
+                        <button id="reset" class="btn btn-dark px-4">Reset</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-10 offset-1 my-5">
+                    <p id="sub_info" class="text-secondary font-italic"></p>
+                    <div id="lapTimer" class="d-flex align-items-start justify-content-start flex-row border-top"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./../public/js/stopwatch.js"></script>
+        <script src="./../public/js/jquery.js"></script>
+    </body>
+
+</html>
